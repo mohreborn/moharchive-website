@@ -2,7 +2,7 @@ import { resolve } from 'path'
 
 export default {
     root: resolve(__dirname, 'src'),
-    base: '/',
+    base: '',
     build: {
         sourcemap: true,
         outDir: '../dist',
