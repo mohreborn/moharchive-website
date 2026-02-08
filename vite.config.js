@@ -9,8 +9,6 @@ export default {
         rollupOptions: {
             input: {
                 index: resolve(__dirname, 'src/index.html'),
-                migration: resolve(__dirname, 'src/migration.html'),
-                tribute: resolve(__dirname, 'src/tribute.html'),
             },
         },
     },
